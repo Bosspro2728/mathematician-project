@@ -10,13 +10,15 @@
 var pJS = function(tag_id, params){
 
   var canvas_el = document.querySelector('#'+tag_id+' > .particles-js-canvas-el');
+  var canvasSize = canvas_el.getBoundingClientRect();
+  console.log(canvasSize)
 
   /* particles.js variables with default values */
   this.pJS = {
     canvas: {
       el: canvas_el,
-      w: canvas_el.offsetWidth,
-      h: canvas_el.offsetHeight
+      w: canvasSize.width,
+      h: canvasSize.height
     },
     particles: {
       number: {
