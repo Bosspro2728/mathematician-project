@@ -12,7 +12,7 @@
 }
 
 p{
-    display: none;
+    display: block;
 }
 
 .text{
@@ -103,6 +103,8 @@ li{
     top: 50%;
     transform: translate(-50%, -50%);
     margin-top: 70px;
+    overflow-y: scroll;
+    height: 300px;
 }
 a{
     color: #f5f5f6;

@@ -12,7 +12,7 @@
 }
 
 p{
-    display: none;
+    display: block;
 }
 button{
     width: 50px;
@@ -26,9 +26,10 @@ button{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    height: 700px;
+    height: 400px;
     max-height: 100vh;
     margin-top: 70px;
+    overflow-y: scroll;
 }
 .main-text strong h1{
     font-size: 50px;
@@ -37,6 +38,7 @@ button{
 .main-text p{
     color: rgb(250 255 27);
     font-size: 30px;
+    display: flex;
 }
 h1{
     justify-self: center;
@@ -92,6 +94,7 @@ a{
     color: #f5f5f6;
 }
 
-img{
-    display: inline;
+p img{
+    /* align-self: center; */
+    justify-self: center;
 }
