@@ -6,44 +6,12 @@
 
 }
 #particles-js{
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     background: linear-gradient(to right, rgb(88, 22, 224), rgb(243, 48, 145));
+    padding: 1;
 }
 
-p{
-    display: block;
-}
-button{
-    width: 50px;
-    height: 50px;
-    display: inline;
-}
-.main-text{
-    justify-content: center;
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    height: 400px;
-    max-height: 100vh;
-    margin-top: 70px;
-    overflow-y: scroll;
-}
-.main-text strong h1{
-    font-size: 50px;
-    display: inline;
-}
-.main-text p{
-    color: rgb(250 255 27);
-    font-size: 30px;
-}
-h1{
-    justify-self: center;
-    color: rgba(0, 0, 0, 1);
-    font-size: 75px;
-} 
 .zone {
     cursor:pointer;
     color:#FFF;
@@ -66,6 +34,40 @@ h1{
     width: 100%;
 }
 
+.main-text{
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 100vh;
+    width: 100%;
+    margin-top: 50px;
+}
+.main-text strong h1{
+    font-size: 50px;
+    display: inline;
+}
+.main-text p{
+    color: rgb(250 255 27);
+    font-size: 20px;
+}
+p{
+    display: block;
+}
+button{
+    width: 40px;
+    height: 40px;
+    display: inline;
+}
+/* h1{
+    justify-self: center;
+    color: rgba(0, 0, 0, 1);
+    font-size: 75px;
+}  */
+
+
 /* nav bar styles  */
 .main-nev{
     display: flex;
@@ -79,6 +81,8 @@ h1{
         padding: 0;
     }
 }
+
+
 
 .push{
     margin-left: auto;
